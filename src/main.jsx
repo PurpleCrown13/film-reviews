@@ -1,0 +1,14 @@
+import * as React from "react";
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import './i18n';
+import { NextUIProvider } from '@nextui-org/react'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <NextUIProvider >
+    <div className="dark text-foreground">
+      <App />
+    </div>
+    </NextUIProvider>
+)

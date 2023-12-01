@@ -1,0 +1,167 @@
+.add-movie-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    padding-bottom: 250px;
+    padding-top: 50px;
+    
+}
+
+
+.next-ui-area{
+    width: 50%;
+    margin: 50px 0px;
+}
+
+.next-ui-input{
+    margin: 20px 0px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.next-ui-slider{
+    margin: 30px 0px;
+}
+
+.next-ui-area{
+    line-height: 20px;
+}
+
+
+.datepicker{
+    background-color: #27272A;
+    color: white;
+    border: 1px solid transparent;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+
+.add-buttton {
+    background-color: #ADBAC0 !important;
+    color: #000 !important;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-buttton:hover {
+    background-color: #CCC !important;
+}
+
+
+.slider-container{
+    width: 500px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider-text-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.final-rating{
+    margin: 0px auto;
+    background-color: #C1CAD1;
+    color: black;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .add-movie-container textarea{
+        width: 700px;
+    }
+    .add-movie-container input{
+        width: 400px;
+    }
+    input::placeholder {
+        font-size: 14px;
+    }
+    .slider-container{
+        width: 400px;
+        font-size: 14px;
+    }
+    .next-ui-input{
+        width: 70%;
+    }
+    .next-ui-area{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .add-movie-container textarea {
+        width: 500px;
+    }
+    .add-movie-container input{
+        width: 300px;
+    }
+    input::placeholder {
+        font-size: 12px;
+    }
+    .slider-container{
+        width: 300px;
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .add-movie-container textarea {
+        width: 300px;
+    }
+    .add-movie-container input{
+        width: 300px;
+    }
+   
+    .slider-container{
+        width: 200px;
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .add-movie-container textarea {
+        width: 200px;
+    }
+
+    .add-movie-container input {
+        width: 200px;
+    }
+
+    input::placeholder {
+        font-size: 2px;
+    }
+    .slider-container{
+        width: 200px;
+        font-size: 12px;
+    }
+}
+
+

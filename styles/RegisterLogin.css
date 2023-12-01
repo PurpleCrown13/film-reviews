@@ -1,0 +1,135 @@
+.register-login-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.login-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.register-login-form {
+    width: 800px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #191E24;
+    margin: 30px auto;
+}
+
+.register-login-form label {
+    font-size: 24px;
+    color: #FFF;
+    margin: 10px 0px;
+}
+
+.register-login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 20px;
+    width: 30%;
+}
+
+
+
+.register-login-form input {
+    background-color: #121212;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    border: 2px solid #A3AAB7;
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.register-login-form input:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.register-login-form input:focus {
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.register-login-container input::placeholder {
+    font-size: 24px;
+}
+
+.redir-link {
+    background-color: transparent;
+    color: #A3AAB7;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.redir-link:hover {
+    color: #fff;
+}
+
+
+@media (min-width: 768px) {
+    .login-container {
+        width: 40%;
+    }
+
+    .register-login-form {
+        width: 50%;
+    }
+
+    .login {
+        width: 20%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .login-container {
+        width: 60%;
+    }
+
+    .register-login-form {
+        width: 70%;
+    }
+
+    .login {
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        width: 80%;
+        min-height: 110vh;
+    }
+
+    .register-form{
+        margin: auto auto !important;
+    }
+
+    .login {
+        width: 40%;
+    }
+
+    input{
+        padding: 10px !important;
+    }
+}

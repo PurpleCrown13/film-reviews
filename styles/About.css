@@ -1,0 +1,99 @@
+.project-wrapper {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    min-height: 130vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.cat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.cat img {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.about {
+   width: 70%;
+    color:black;
+   margin: 0 auto;
+   padding-bottom: 200px;
+   font-size: 20px;
+   margin-top: 100px;
+
+}
+
+/* Slider.css */
+:root {
+    --swiper-navigation-color: black;
+    /* Измените цвет стрелок на нужный вам */
+    --swiper-pagination-color: black;
+    /* Измените цвет точек на нужный вам */
+}
+
+.left-boxx{
+    width: 500px;
+    background-color: white;
+    color: black;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    box-shadow: -10px -10px 0px 0px #d0d0d0, -20px -20px 0px 0px #a2a2a2, 5px 5px 15px 5px rgba(0,0,0,0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.right-boxx{
+    width: 500px;
+    background-color: #222;
+    color: white;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1200px;
+    margin-top: 50px;
+    box-shadow: 10px -10px 0px 0px #393939, 20px -20px 0px 0px #707070, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        font-size: 16px;
+    }
+    .cat img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about {
+        font-size: 12px;
+        padding-bottom: 300px;
+    }
+    .cat img {
+        width: 60%;
+    }
+}

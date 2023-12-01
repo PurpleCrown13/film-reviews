@@ -1,0 +1,51 @@
+.add-news-box{
+    width: 30%;
+    margin: 100px auto;
+    
+}
+
+
+.add-news-title{
+    font-size: 20px;
+    
+}
+
+.add-news-box button{
+    background-color: #9999CC;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+.add-news-box button:hover {
+    background-color: #06828E;
+}
+
+
+.add-news-box input, .add-news-box textarea{
+    background-color: #27272A;
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+.add-news-box input:hover, .add-news-box textarea:hover{
+    border: 1px solid #9999CC;
+}
+
+
+.add-news-box textarea{
+    width: 600px;
+    height: 300px;
+    resize: vertical;
+}
+
+.add-news-box input:focus,
+.add-news-box textarea:focus {
+    outline: none;
+    border: 1px solid #9999CC;
+}

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+  background-color: #121212;
+  min-height: 130vh;
+}
+/* Общие стили для скроллбара */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #232323;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #707070;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.ErrorLog{
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ErrorLog h1{
+  color: peru;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.ErrorLog a{
+  color: aqua;
+  text-decoration: none;
+  font-size: 30px;
+}
+.ErrorLog a:hover {
+  color: cornsilk;
+}
+
+.App{
+      padding-bottom: 160px;
+}
+
+

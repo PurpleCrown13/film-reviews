@@ -1,0 +1,246 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    position: relative;
+    min-height: 100%;
+}
+
+.wrapper {
+    padding-bottom: 250px;
+    /* Высота footer + end */
+}
+
+.footer {
+    position: absolute;
+    margin-top: 2000px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 260px;
+    /* background:
+            radial-gradient(circle farthest-side at 0% 50%, #202020 23.5%, #0000 0)27.3px 39px,
+            radial-gradient(circle farthest-side at 0% 50%, #2b2b2e 24%, #0000 0)24.7px 39px,
+            linear-gradient(#202020 14%, #0000 0, #0000 85%, #202020 0)0 0,
+            linear-gradient(150deg, #202020 24%, #2b2b2e 0, #2b2b2e 26%, #0000 0, #0000 74%, #2b2b2e 0, #2b2b2e 76%, #202020 0)0 0,
+            linear-gradient(30deg, #202020 24%, #2b2b2e 0, #2b2b2e 26%, #0000 0, #0000 74%, #2b2b2e 0, #2b2b2e 76%, #202020 0)0 0,
+            linear-gradient(90deg, #2b2b2e 2%, #202020 0, #202020 98%, #2b2b2e 0%)0 0 #202020;
+        background-size: 52px 78px;
+        background-color: #202020; */
+
+        /* background-image: linear-gradient(30deg, #2b2b2e 12%, transparent 12.5%, transparent 87%, #2b2b2e 87.5%, #2b2b2e), linear-gradient(150deg, #2b2b2e 12%, transparent 12.5%, transparent 87%, #2b2b2e 87.5%, #2b2b2e), linear-gradient(30deg, #2b2b2e 12%, transparent 12.5%, transparent 87%, #2b2b2e 87.5%, #2b2b2e), linear-gradient(150deg, #2b2b2e 12%, transparent 12.5%, transparent 87%, #2b2b2e 87.5%, #2b2b2e), linear-gradient(60deg, rgba(43, 43, 46, 0.5) 25%, transparent 25.5%, transparent 75%, rgba(43, 43, 46, 0.5) 75%, rgba(43, 43, 46, 0.5)), linear-gradient(60deg, rgba(43, 43, 46, 0.5) 25%, transparent 25.5%, transparent 75%, rgba(43, 43, 46, 0.5) 75%, rgba(43, 43, 46, 0.5));
+            background-size: 52px 91px;
+            background-position: 0 0, 0 0, 26px 45.5px, 26px 45.5px, 0 0, 26px 45.5px;
+            background-color: #202020; */
+            
+            background-color: #27272a;
+                background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23121212' fill-opacity='1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    display: flex  !important;
+    justify-content: center !important;
+    padding: 20px;
+}
+
+.end {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d7e3ea;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer-column {
+    flex-basis: 33.33%;
+    padding: 10px;
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 120px;
+    align-items: center;
+}
+
+.logo-container{
+        margin: 20px 0px;
+}
+
+.footer-ssilki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+}
+
+.footer-column h3 {
+    text-decoration: overline;
+    padding-top: 5px;
+    color: #ADBAC0;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column .footer-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 16px;
+}
+
+.footer-column .footer-link:hover {
+    color: #888;
+}
+
+
+@font-face {
+    font-family: 'YourFont2';
+    src: url('../public/Gulax-Regular.woff') format('woff');
+}
+
+.logo-footer {
+    font-family: 'YourFont2', sans-serif;
+    margin-top: 10px;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+
+.end{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C1CAD1;
+    color: #000;
+    margin-bottom: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    
+}
+
+.end:hover {
+    background-color: #ADBAC0;
+    cursor: help;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .end {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .end {
+        font-size: 10px;
+        height: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .logo-footer {
+            font-size: 16px;
+    }
+    .quote {
+            font-size: 12px;
+    }
+    .footer-column h3 {
+            font-size: 20px;
+    }
+    .footer-column .footer-link {
+            font-size: 14px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .logo-footer {
+        font-size: 14px;
+    }
+
+    .quote {
+        font-size: 10px;
+    }
+    .footer-column h3 {
+        font-size: 18px;
+    }
+    .footer-column .footer-link {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .logo-footer {
+        font-size: 12px;
+        
+    }
+
+    .quote {
+        font-size: 8px;
+        
+    }
+    .footer-column h3 {
+        font-size: 14px;
+    }
+    .footer-column .footer-link {
+        font-size: 10px;
+        
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .logo-footer {
+        font-size: 20px !important;
+    }
+
+    .quote {
+        font-size: 8px;
+    }
+
+    .footer-column h3 {
+        font-size: 12px;
+    }
+
+    .footer{
+        height: 300px;
+    }
+    .footer-link{
+        margin: 5px auto;
+        font-size: 10px;
+    }
+
+    .footer-links{
+        display: flex;
+        flex-direction: column !important;
+    }
+}

@@ -1,0 +1,193 @@
+.plannes-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    min-height: 30vw;
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+
+
+.plannes-wrapper input{
+    background-color: #27272A;
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.plannes-wrapper input:hover{
+    border: 1px solid #ADBAC0;
+}
+
+
+.plannes-wrapper input:focus{
+    outline: none;
+    border: 1px solid #ADBAC0;
+}
+
+.plannes-wrapper button {
+    background-color: #ADBAC0 !important;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: #222;
+
+}
+
+.plannes-wrapper button:hover {
+    background-color: darkorange;
+}
+
+input::placeholder {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.plannes-table table {
+    border: 1px none #DEDEDF;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: center;
+    font-size: 16px;    
+    height: 60%;
+}
+
+.plannes-table caption {
+    caption-side: top;
+    text-align: left;
+    
+}
+
+.plannes-table th {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px none #DEDEDF;
+    background-color: #FFF;
+    color: #000000;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.plannes-table td {
+    border: 1px none #DEDEDF;
+    background-color: #C1CAD1;
+    color: #121212;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.trash-button  img{
+    margin: 0 auto;
+}
+
+.trash-button:hover{
+    background-color: indianred;
+    cursor: pointer;
+}
+
+
+
+
+.plannes-table table {
+    width: 70%;
+}
+
+.plannes-table th:first-child,
+.plannes-table td:first-child {
+    width: 60%;
+}
+
+.plannes-table th:last-child,
+.plannes-table td:last-child {
+    width: 10% ;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .plannes-wrapper input{
+    font-size: 18px;
+    width: 400px;
+    }
+    .plannes-wrapper button {
+    width: 150px;
+    height: 40px;
+    
+    font-size: 16px;
+    }
+    .plannes-table table {
+    width: 100%;
+    }
+    .plannes-table th:last-child,
+    .plannes-table td:last-child {
+    width: 20%;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+    .plannes-wrapper input {
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .plannes-wrapper button {
+        width: 100px;
+        height: 30px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .plannes-table table {
+        width: 70%;
+    }
+
+    .plannes-table th:last-child,
+    .plannes-table td:last-child {
+        width: 20%;
+    }
+    .plannes-table th {
+    font-size: 10px;
+    padding: 10px;
+    
+    }
+    .plannes-table td {
+    font-size: 8px;
+    }
+    .plannes-table th:nth-child(2){
+        padding-right: 50px;
+    }
+    .plannes-table table{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .plannes-wrapper input {
+        width: 100px;
+    }
+
+    
+}

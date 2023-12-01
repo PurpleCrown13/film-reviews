@@ -1,0 +1,42 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 40px 0px;
+    border: 3px solid transparent;
+}
+
+.button-container button {
+    background-color: #C1CAD1;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.button-container button:hover {
+    background-color: #dfebf4;
+}
+
+.filter-box.active {
+    display: block;
+}
+
+
+@media (max-width: 1000px) {
+.button-container button {
+    padding: 6px 16px;
+    font-size: 16px;
+}
+}
+
+@media (max-width: 400px) {
+    .button-container button {
+        padding: 2px 12px;
+        font-size: 12px;
+    }
+}

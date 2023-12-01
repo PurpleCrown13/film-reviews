@@ -1,0 +1,131 @@
+.edit-container textarea {
+   margin-top: 10px;
+   background-color: #202020;
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    width: 700px;
+    min-height: 200px;
+    resize: vertical;
+}
+
+
+.edit-container{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    margin-bottom: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.edit-container textarea:hover {
+    border: 1px solid ;
+    background-color: black;
+    border: 1px solid #E0E060;
+}
+
+
+
+
+.edit-container textarea:focus {
+    outline: none;
+    border: 1px solid #E0E060;
+    background-color: black;
+}
+
+
+.edit-container button {
+    background-color: #E0E060;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.edit-container button:hover {
+    background-color: #dede37;
+}
+
+@media screen and (max-width: 1200px) {
+    .edit-container  textarea {
+        width: 700px;
+    }
+
+    .edit-container  input {
+        width: 400px;
+    }
+
+    input::placeholder {
+        font-size: 14px;
+    }
+
+    
+}
+
+@media screen and (max-width: 900px) {
+    .edit-container  textarea {
+        width: 500px;
+    }
+
+    .edit-container  input {
+        width: 300px;
+    }
+
+    input::placeholder {
+        font-size: 12px;
+    }
+
+   
+}
+
+@media screen and (max-width: 700px) {
+    .edit-container  textarea {
+        width: 300px;
+    }
+
+    .edit-container  input {
+        width: 300px;
+    }
+
+    .edit-container  button {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    
+}
+
+@media screen and (max-width: 700px) {
+    .edit-container  textarea {
+        width: 200px;
+        
+    }
+
+    .edit-container  input {
+        width: 200px;
+    }
+
+    input::placeholder {
+        font-size: 2px;
+    }
+
+    .edit-container button{
+        margin-bottom: 100px;
+    }
+
+    
+}
