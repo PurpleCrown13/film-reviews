@@ -46,7 +46,7 @@ const Edit = () => {
         event.preventDefault();
 
         try {
-            await axios.put(`http://hellafragilesite.com/film-reviews-api/api-update.php?id=${id}`, movie);
+            await axios.post(`http://hellafragilesite.com/film-reviews-api/api-update.php?id=${id}`, movie);
             history(`/movies/${id}`);
         } catch (error) {
         }
@@ -57,15 +57,15 @@ const Edit = () => {
     }
 
     if (error) {
-        return <div>Не удалось загрузить фильм для редактирования.</div>;
+        return <div>Error.</div>;
     }
 
     if (!movie) {
-        return <div>Фильм не найден.</div>;
+        return <div>Can`t find film, error.</div>;
     }
 
     if (userLogin !== localStorage.getItem('login')) {
-        return <div>У вас нет доступа к этой странице.</div>;
+        return <div>You don`t have access to this page.</div>;
     }
 
     return (
